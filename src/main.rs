@@ -64,11 +64,11 @@ impl App {
     }
 
     fn increment_counter(&mut self) {
-        self.counter += 1;
+        self.counter = self.counter.wrapping_add(1); // Wraps on overflow
     }
 
     fn decrement_counter(&mut self) {
-        self.counter -= 1;
+        self.counter = self.counter.wrapping_sub(1); // Wraps on underflow
     }
 }
 
