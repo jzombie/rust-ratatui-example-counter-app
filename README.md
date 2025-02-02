@@ -11,7 +11,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ### **Clone the Repository**
 ```sh
 git clone https://github.com/jzombie/rust-ratatui-example-counter-app.git
-cd rust-ratatui-counter
+cd rust-ratatui-example-counter-app
 ```
 
 ### **Build & Run**
