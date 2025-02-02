@@ -1,7 +1,8 @@
 [package]
-name = "ratatui-counter-app"
+name = "ratatui-example-counter-app"
 version = "0.1.0"
 edition = "2021"
+publish = false
 
 [dependencies]
 crossterm = "0.28.1"

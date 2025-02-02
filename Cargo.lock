@@ -324,7 +324,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ratatui-counter-app"
+name = "ratatui-example-counter-app"
 version = "0.1.0"
 dependencies = [
  "crossterm",
